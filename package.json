@@ -6,7 +6,8 @@
   "test": "node index.js"
  },
  "dependencies": {
-  "instagram-web-api2": "*"
+  "instagram-web-api2": "*",
+  "node-superfetch": "*"
  },
  "engines": {
   "node": "12.x"
