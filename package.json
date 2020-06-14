@@ -1,0 +1,16 @@
+{
+ "name": "covid",
+ "version": "0.0.1",
+ "description": "Bot.",
+ "scripts": { 
+  "test": "node index.js"
+ },
+ "dependencies": {
+  "instagram-web-api2": "*"
+ },
+ "engines": {
+  "node": "12.x"
+ },
+ "author": "HansPutera",
+ "license": "MIT"
+}
