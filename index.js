@@ -27,7 +27,7 @@ const URL = 'https://corona.lmao.ninja/v2/countries/id';
 
 async function posting() {
  const { body: result } = await request.get(URL);
- let txt = `Corona Virus Indonesia\n\n> Kasus: ${result.cases}\n> Kematian: ${result.deaths}\n> Sembuh: ${result.recovered}\n\n[📝] Hari ini\n> Kasus: ${result.todayCases}\n> Kematian: ${result.todayDeaths}`);
+ let txt = `Every 1 Hours Corona Virus Indonesia Update\n\n> Kasus: ${result.cases}\n> Kematian: ${result.deaths}\n> Sembuh: ${result.recovered}\n\n[📝] Hari ini\n> Kasus: ${result.todayCases}\n> Kematian: ${result.todayDeaths}`);
  await bot.login();
  const cynta = await client.uploadPhoto({ photo, caption: txt });
  console.log(`Post Success: ${cynta.media.code}`);
