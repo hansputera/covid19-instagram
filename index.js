@@ -9,9 +9,14 @@
 const request = require('node-superfetch');
 const insta = require('instagram-web-api2');
 
+const {
+ username,
+ password
+} = process.env;
+
 const bot = new insta({
-  username: 'USERNAME',
-  password: 'PASSWORD'
+  username,
+  password
 });
 
 console.log(`Login Success.`);
